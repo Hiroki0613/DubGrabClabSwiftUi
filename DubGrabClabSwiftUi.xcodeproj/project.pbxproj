@@ -25,6 +25,9 @@
 		7FFB9F7927BFD06200FC1A7F /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F7827BFD06200FC1A7F /* DDGLocation.swift */; };
 		7FFB9F7D27BFD54100FC1A7F /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F7C27BFD54100FC1A7F /* DDGProfile.swift */; };
 		7FFB9F7F27BFD74000FC1A7F /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F7E27BFD74000FC1A7F /* MockData.swift */; };
+		7FFB9F8227BFE61F00FC1A7F /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8127BFE61F00FC1A7F /* CloudKitManager.swift */; };
+		7FFB9F8427BFE74B00FC1A7F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8327BFE74B00FC1A7F /* Constants.swift */; };
+		7FFB9F8627BFEBB300FC1A7F /* CKRecord+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8527BFEBB300FC1A7F /* CKRecord+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		7FFB9F7827BFD06200FC1A7F /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
 		7FFB9F7C27BFD54100FC1A7F /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
 		7FFB9F7E27BFD74000FC1A7F /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		7FFB9F8127BFE61F00FC1A7F /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		7FFB9F8327BFE74B00FC1A7F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7FFB9F8527BFEBB300FC1A7F /* CKRecord+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKRecord+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		7FFB9F4A27BF6A1900FC1A7F /* DubGrabClabSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
+				7FFB9F8027BFE59600FC1A7F /* Utilities */,
 				7FFB9F7B27BFD08200FC1A7F /* Model */,
 				7FFB9F7427BFA8B300FC1A7F /* Views */,
 				7FFB9F5927BF6ABE00FC1A7F /* DubGrabClabSwiftUi.entitlements */,
@@ -113,6 +120,7 @@
 			children = (
 				7FFB9F5D27BF6DC200FC1A7F /* Color+Ext.swift */,
 				7FFB9F6F27BFA54800FC1A7F /* View+Ext.swift */,
+				7FFB9F8527BFEBB300FC1A7F /* CKRecord+Ext.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -123,7 +131,6 @@
 				7FFB9F6D27BFA51C00FC1A7F /* CustomModifiers.swift */,
 				7FFB9F7727BFA91000FC1A7F /* CustomViews */,
 				7FFB9F7627BFA90300FC1A7F /* Cells */,
-				7FFB9F7327BFA89600FC1A7F /* Extentions */,
 				7FFB9F7527BFA8BE00FC1A7F /* Screens */,
 			);
 			path = Views;
@@ -166,6 +173,16 @@
 				7FFB9F7E27BFD74000FC1A7F /* MockData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7FFB9F8027BFE59600FC1A7F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7FFB9F7327BFA89600FC1A7F /* Extentions */,
+				7FFB9F8127BFE61F00FC1A7F /* CloudKitManager.swift */,
+				7FFB9F8327BFE74B00FC1A7F /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FFB9F4C27BF6A1900FC1A7F /* DubGrabClabSwiftUiApp.swift in Sources */,
+				7FFB9F8427BFE74B00FC1A7F /* Constants.swift in Sources */,
 				7FFB9F6E27BFA51C00FC1A7F /* CustomModifiers.swift in Sources */,
 				7FFB9F6227BF6E9300FC1A7F /* LocationMapView.swift in Sources */,
 				7FFB9F7227BFA63B00FC1A7F /* DDGButton.swift in Sources */,
@@ -248,8 +266,10 @@
 				7FFB9F7927BFD06200FC1A7F /* DDGLocation.swift in Sources */,
 				7FFB9F6827BF79AF00FC1A7F /* LocationDetailView.swift in Sources */,
 				7FFB9F6027BF6E4900FC1A7F /* AppTabView.swift in Sources */,
+				7FFB9F8227BFE61F00FC1A7F /* CloudKitManager.swift in Sources */,
 				7FFB9F6627BF6EF500FC1A7F /* ProfileView.swift in Sources */,
 				7FFB9F7027BFA54800FC1A7F /* View+Ext.swift in Sources */,
+				7FFB9F8627BFEBB300FC1A7F /* CKRecord+Ext.swift in Sources */,
 				7FFB9F6A27BFA22200FC1A7F /* LocationCell.swift in Sources */,
 				7FFB9F6C27BFA26F00FC1A7F /* AvatarView.swift in Sources */,
 				7FFB9F5E27BF6DC200FC1A7F /* Color+Ext.swift in Sources */,
