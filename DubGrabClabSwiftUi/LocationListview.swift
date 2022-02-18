@@ -22,6 +22,7 @@ struct LocationListview: View {
                 }
             }
             .navigationTitle("Grub Spots")
+            .listStyle(.plain)
 
      
         }
