@@ -23,6 +23,8 @@
 		7FFB9F7027BFA54800FC1A7F /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F6F27BFA54800FC1A7F /* View+Ext.swift */; };
 		7FFB9F7227BFA63B00FC1A7F /* DDGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F7127BFA63B00FC1A7F /* DDGButton.swift */; };
 		7FFB9F7927BFD06200FC1A7F /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F7827BFD06200FC1A7F /* DDGLocation.swift */; };
+		7FFB9F7D27BFD54100FC1A7F /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F7C27BFD54100FC1A7F /* DDGProfile.swift */; };
+		7FFB9F7F27BFD74000FC1A7F /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F7E27BFD74000FC1A7F /* MockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		7FFB9F6F27BFA54800FC1A7F /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 		7FFB9F7127BFA63B00FC1A7F /* DDGButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGButton.swift; sourceTree = "<group>"; };
 		7FFB9F7827BFD06200FC1A7F /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
+		7FFB9F7C27BFD54100FC1A7F /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
+		7FFB9F7E27BFD74000FC1A7F /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				7FFB9F7827BFD06200FC1A7F /* DDGLocation.swift */,
+				7FFB9F7C27BFD54100FC1A7F /* DDGProfile.swift */,
+				7FFB9F7E27BFD74000FC1A7F /* MockData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -236,7 +242,9 @@
 				7FFB9F6E27BFA51C00FC1A7F /* CustomModifiers.swift in Sources */,
 				7FFB9F6227BF6E9300FC1A7F /* LocationMapView.swift in Sources */,
 				7FFB9F7227BFA63B00FC1A7F /* DDGButton.swift in Sources */,
+				7FFB9F7F27BFD74000FC1A7F /* MockData.swift in Sources */,
 				7FFB9F6427BF6ECF00FC1A7F /* LocationListview.swift in Sources */,
+				7FFB9F7D27BFD54100FC1A7F /* DDGProfile.swift in Sources */,
 				7FFB9F7927BFD06200FC1A7F /* DDGLocation.swift in Sources */,
 				7FFB9F6827BF79AF00FC1A7F /* LocationDetailView.swift in Sources */,
 				7FFB9F6027BF6E4900FC1A7F /* AppTabView.swift in Sources */,
