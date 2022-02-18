@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LocationMapView.swift
 //  DubGrabClabSwiftUi
 //
 //  Created by 近藤宏輝 on 2022/02/18.
@@ -7,15 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LocationMapView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("Map View")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LocationMapView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LocationMapView()
     }
 }
