@@ -35,6 +35,7 @@
 		7FFB9F9227C0E08500FC1A7F /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F9127C0E08500FC1A7F /* OnboardView.swift */; };
 		7FFB9F9427C0E0E600FC1A7F /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F9327C0E0E600FC1A7F /* LogoView.swift */; };
 		7FFB9F9727C0E59500FC1A7F /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F9627C0E59500FC1A7F /* XDismissButton.swift */; };
+		7FFB9F9A27C0F1CE00FC1A7F /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F9927C0F1CE00FC1A7F /* PhotoPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		7FFB9F9127C0E08500FC1A7F /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
 		7FFB9F9327C0E0E600FC1A7F /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		7FFB9F9627C0E59500FC1A7F /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		7FFB9F9927C0F1CE00FC1A7F /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 		7FFB9F7727BFA91000FC1A7F /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				7FFB9F9827C0F19700FC1A7F /* UIKit_Components */,
 				7FFB9F9527C0E58400FC1A7F /* Buttons */,
 				7FFB9F6B27BFA26F00FC1A7F /* AvatarView.swift */,
 				7FFB9F9327C0E0E600FC1A7F /* LogoView.swift */,
@@ -228,6 +231,14 @@
 				7FFB9F7127BFA63B00FC1A7F /* DDGButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		7FFB9F9827C0F19700FC1A7F /* UIKit_Components */ = {
+			isa = PBXGroup;
+			children = (
+				7FFB9F9927C0F1CE00FC1A7F /* PhotoPicker.swift */,
+			);
+			path = UIKit_Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +321,7 @@
 				7FFB9F6427BF6ECF00FC1A7F /* LocationListview.swift in Sources */,
 				7FFB9F7D27BFD54100FC1A7F /* DDGProfile.swift in Sources */,
 				7FFB9F7927BFD06200FC1A7F /* DDGLocation.swift in Sources */,
+				7FFB9F9A27C0F1CE00FC1A7F /* PhotoPicker.swift in Sources */,
 				7FFB9F6827BF79AF00FC1A7F /* LocationDetailView.swift in Sources */,
 				7FFB9F6027BF6E4900FC1A7F /* AppTabView.swift in Sources */,
 				7FFB9F8227BFE61F00FC1A7F /* CloudKitManager.swift in Sources */,
