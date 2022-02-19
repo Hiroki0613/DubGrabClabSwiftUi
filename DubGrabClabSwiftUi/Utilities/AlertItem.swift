@@ -23,5 +23,8 @@ struct AlertContext {
     static let locationDenied = AlertItem(title: Text("Locations Denied"), message: Text("Location Denied。もう一度、操作をお願いします"), dismissButton: .default(Text("OK")))
     
     static let locationDisabled = AlertItem(title: Text("Locations Service Disabled"), message: Text("Locations Service Disabled。もう一度、操作をお願いします"), dismissButton: .default(Text("OK")))
+    
+    //MARK: -ProfileView Errors
+    static let invalidProfile = AlertItem(title: Text("Invalid Profile"), message: Text("Invalid Profile。必要事項を入力して、もう一度お願いします"), dismissButton: .default(Text("OK")))
 }
 
