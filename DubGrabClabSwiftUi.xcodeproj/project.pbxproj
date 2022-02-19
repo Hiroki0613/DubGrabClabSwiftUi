@@ -31,6 +31,7 @@
 		7FFB9F8827BFED2000FC1A7F /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8727BFED2000FC1A7F /* AlertItem.swift */; };
 		7FFB9F8B27BFF18100FC1A7F /* LocationMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8A27BFF18100FC1A7F /* LocationMapViewModel.swift */; };
 		7FFB9F8E27C0C0ED00FC1A7F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8D27C0C0ED00FC1A7F /* LocationManager.swift */; };
+		7FFB9F9027C0CDF000FC1A7F /* CKAsset+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8F27C0CDF000FC1A7F /* CKAsset+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		7FFB9F8727BFED2000FC1A7F /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
 		7FFB9F8A27BFF18100FC1A7F /* LocationMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewModel.swift; sourceTree = "<group>"; };
 		7FFB9F8D27C0C0ED00FC1A7F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		7FFB9F8F27C0CDF000FC1A7F /* CKAsset+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKAsset+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				7FFB9F5D27BF6DC200FC1A7F /* Color+Ext.swift */,
 				7FFB9F6F27BFA54800FC1A7F /* View+Ext.swift */,
 				7FFB9F8527BFEBB300FC1A7F /* CKRecord+Ext.swift */,
+				7FFB9F8F27C0CDF000FC1A7F /* CKAsset+Ext.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				7FFB9F7027BFA54800FC1A7F /* View+Ext.swift in Sources */,
 				7FFB9F8627BFEBB300FC1A7F /* CKRecord+Ext.swift in Sources */,
 				7FFB9F8E27C0C0ED00FC1A7F /* LocationManager.swift in Sources */,
+				7FFB9F9027C0CDF000FC1A7F /* CKAsset+Ext.swift in Sources */,
 				7FFB9F6A27BFA22200FC1A7F /* LocationCell.swift in Sources */,
 				7FFB9F6C27BFA26F00FC1A7F /* AvatarView.swift in Sources */,
 				7FFB9F5E27BF6DC200FC1A7F /* Color+Ext.swift in Sources */,
