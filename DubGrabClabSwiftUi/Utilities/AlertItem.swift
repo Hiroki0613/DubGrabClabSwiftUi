@@ -26,5 +26,14 @@ struct AlertContext {
     
     //MARK: -ProfileView Errors
     static let invalidProfile = AlertItem(title: Text("Invalid Profile"), message: Text("Invalid Profile。必要事項を入力して、もう一度お願いします"), dismissButton: .default(Text("OK")))
+    
+    static let noUserRecord = AlertItem(title: Text("No User Record"), message: Text("No User Record。ログインしてください"), dismissButton: .default(Text("OK")))
+    
+    
+    static let createProfileSuccess = AlertItem(title: Text("Profile Created Successfully"), message: Text("プロファイルが作成されました"), dismissButton: .default(Text("OK")))
+    
+    static let createProfileFailure = AlertItem(title: Text("Profile Created Failed"), message: Text("プロファイルの作成が失敗しました"), dismissButton: .default(Text("OK")))
+    
+    static let unableToGetProfile = AlertItem(title: Text("Unable to get Profile"), message: Text("プロファイルの取得が失敗しました"), dismissButton: .default(Text("OK")))
 }
 

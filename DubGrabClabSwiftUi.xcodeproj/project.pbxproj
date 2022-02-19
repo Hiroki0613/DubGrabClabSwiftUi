@@ -38,6 +38,7 @@
 		7FFB9F9A27C0F1CE00FC1A7F /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F9927C0F1CE00FC1A7F /* PhotoPicker.swift */; };
 		7FFB9F9C27C100F100FC1A7F /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F9B27C100F100FC1A7F /* UIImage+Ext.swift */; };
 		7FFB9F9F27C11FD300FC1A7F /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F9E27C11FD300FC1A7F /* ProfileViewModel.swift */; };
+		7FFB9FA127C134A900FC1A7F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FA027C134A900FC1A7F /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		7FFB9F9927C0F1CE00FC1A7F /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		7FFB9F9B27C100F100FC1A7F /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
 		7FFB9F9E27C11FD300FC1A7F /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		7FFB9FA027C134A900FC1A7F /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 				7FFB9F9527C0E58400FC1A7F /* Buttons */,
 				7FFB9F6B27BFA26F00FC1A7F /* AvatarView.swift */,
 				7FFB9F9327C0E0E600FC1A7F /* LogoView.swift */,
+				7FFB9FA027C134A900FC1A7F /* LoadingView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -249,8 +252,8 @@
 		7FFB9F9D27C11FB400FC1A7F /* ProfileView */ = {
 			isa = PBXGroup;
 			children = (
-				7FFB9F6527BF6EF500FC1A7F /* ProfileView.swift */,
 				7FFB9F9E27C11FD300FC1A7F /* ProfileViewModel.swift */,
+				7FFB9F6527BF6EF500FC1A7F /* ProfileView.swift */,
 			);
 			path = ProfileView;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				7FFB9F9027C0CDF000FC1A7F /* CKAsset+Ext.swift in Sources */,
 				7FFB9F9227C0E08500FC1A7F /* OnboardView.swift in Sources */,
 				7FFB9F6A27BFA22200FC1A7F /* LocationCell.swift in Sources */,
+				7FFB9FA127C134A900FC1A7F /* LoadingView.swift in Sources */,
 				7FFB9F9C27C100F100FC1A7F /* UIImage+Ext.swift in Sources */,
 				7FFB9F6C27BFA26F00FC1A7F /* AvatarView.swift in Sources */,
 				7FFB9F5E27BF6DC200FC1A7F /* Color+Ext.swift in Sources */,
