@@ -35,5 +35,9 @@ struct AlertContext {
     static let createProfileFailure = AlertItem(title: Text("Profile Created Failed"), message: Text("プロファイルの作成が失敗しました"), dismissButton: .default(Text("OK")))
     
     static let unableToGetProfile = AlertItem(title: Text("Unable to get Profile"), message: Text("プロファイルの取得が失敗しました"), dismissButton: .default(Text("OK")))
+    
+    static let updateProfileSuccess = AlertItem(title: Text("Update Profile Success"), message: Text("プロファイルの更新が成功しました"), dismissButton: .default(Text("OK")))
+    
+    static let updateProfileFailure = AlertItem(title: Text("Update Profile Failed"), message: Text("プロファイルの更新が失敗しました"), dismissButton: .default(Text("OK")))
 }
 
