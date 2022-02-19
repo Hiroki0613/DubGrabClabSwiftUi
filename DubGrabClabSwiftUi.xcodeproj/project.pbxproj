@@ -32,6 +32,9 @@
 		7FFB9F8B27BFF18100FC1A7F /* LocationMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8A27BFF18100FC1A7F /* LocationMapViewModel.swift */; };
 		7FFB9F8E27C0C0ED00FC1A7F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8D27C0C0ED00FC1A7F /* LocationManager.swift */; };
 		7FFB9F9027C0CDF000FC1A7F /* CKAsset+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8F27C0CDF000FC1A7F /* CKAsset+Ext.swift */; };
+		7FFB9F9227C0E08500FC1A7F /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F9127C0E08500FC1A7F /* OnboardView.swift */; };
+		7FFB9F9427C0E0E600FC1A7F /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F9327C0E0E600FC1A7F /* LogoView.swift */; };
+		7FFB9F9727C0E59500FC1A7F /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F9627C0E59500FC1A7F /* XDismissButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +65,9 @@
 		7FFB9F8A27BFF18100FC1A7F /* LocationMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewModel.swift; sourceTree = "<group>"; };
 		7FFB9F8D27C0C0ED00FC1A7F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		7FFB9F8F27C0CDF000FC1A7F /* CKAsset+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKAsset+Ext.swift"; sourceTree = "<group>"; };
+		7FFB9F9127C0E08500FC1A7F /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
+		7FFB9F9327C0E0E600FC1A7F /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		7FFB9F9627C0E59500FC1A7F /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,7 @@
 				7FFB9F6727BF79AF00FC1A7F /* LocationDetailView.swift */,
 				7FFB9F6327BF6ECF00FC1A7F /* LocationListview.swift */,
 				7FFB9F6527BF6EF500FC1A7F /* ProfileView.swift */,
+				7FFB9F9127C0E08500FC1A7F /* OnboardView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -168,8 +175,9 @@
 		7FFB9F7727BFA91000FC1A7F /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				7FFB9F9527C0E58400FC1A7F /* Buttons */,
 				7FFB9F6B27BFA26F00FC1A7F /* AvatarView.swift */,
-				7FFB9F7127BFA63B00FC1A7F /* DDGButton.swift */,
+				7FFB9F9327C0E0E600FC1A7F /* LogoView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -211,6 +219,15 @@
 				7FFB9F8D27C0C0ED00FC1A7F /* LocationManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		7FFB9F9527C0E58400FC1A7F /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				7FFB9F9627C0E59500FC1A7F /* XDismissButton.swift */,
+				7FFB9F7127BFA63B00FC1A7F /* DDGButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,12 +313,15 @@
 				7FFB9F6827BF79AF00FC1A7F /* LocationDetailView.swift in Sources */,
 				7FFB9F6027BF6E4900FC1A7F /* AppTabView.swift in Sources */,
 				7FFB9F8227BFE61F00FC1A7F /* CloudKitManager.swift in Sources */,
+				7FFB9F9427C0E0E600FC1A7F /* LogoView.swift in Sources */,
+				7FFB9F9727C0E59500FC1A7F /* XDismissButton.swift in Sources */,
 				7FFB9F8827BFED2000FC1A7F /* AlertItem.swift in Sources */,
 				7FFB9F6627BF6EF500FC1A7F /* ProfileView.swift in Sources */,
 				7FFB9F7027BFA54800FC1A7F /* View+Ext.swift in Sources */,
 				7FFB9F8627BFEBB300FC1A7F /* CKRecord+Ext.swift in Sources */,
 				7FFB9F8E27C0C0ED00FC1A7F /* LocationManager.swift in Sources */,
 				7FFB9F9027C0CDF000FC1A7F /* CKAsset+Ext.swift in Sources */,
+				7FFB9F9227C0E08500FC1A7F /* OnboardView.swift in Sources */,
 				7FFB9F6A27BFA22200FC1A7F /* LocationCell.swift in Sources */,
 				7FFB9F6C27BFA26F00FC1A7F /* AvatarView.swift in Sources */,
 				7FFB9F5E27BF6DC200FC1A7F /* Color+Ext.swift in Sources */,
