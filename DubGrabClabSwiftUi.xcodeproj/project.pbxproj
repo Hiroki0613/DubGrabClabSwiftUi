@@ -37,6 +37,7 @@
 		7FFB9F9727C0E59500FC1A7F /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F9627C0E59500FC1A7F /* XDismissButton.swift */; };
 		7FFB9F9A27C0F1CE00FC1A7F /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F9927C0F1CE00FC1A7F /* PhotoPicker.swift */; };
 		7FFB9F9C27C100F100FC1A7F /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F9B27C100F100FC1A7F /* UIImage+Ext.swift */; };
+		7FFB9F9F27C11FD300FC1A7F /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F9E27C11FD300FC1A7F /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		7FFB9F9627C0E59500FC1A7F /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		7FFB9F9927C0F1CE00FC1A7F /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		7FFB9F9B27C100F100FC1A7F /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		7FFB9F9E27C11FD300FC1A7F /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,11 +161,11 @@
 		7FFB9F7527BFA8BE00FC1A7F /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				7FFB9F9D27C11FB400FC1A7F /* ProfileView */,
 				7FFB9F8927BFF16300FC1A7F /* LocationMapView */,
 				7FFB9F5F27BF6E4900FC1A7F /* AppTabView.swift */,
 				7FFB9F6727BF79AF00FC1A7F /* LocationDetailView.swift */,
 				7FFB9F6327BF6ECF00FC1A7F /* LocationListview.swift */,
-				7FFB9F6527BF6EF500FC1A7F /* ProfileView.swift */,
 				7FFB9F9127C0E08500FC1A7F /* OnboardView.swift */,
 			);
 			path = Screens;
@@ -244,6 +246,15 @@
 			path = UIKit_Components;
 			sourceTree = "<group>";
 		};
+		7FFB9F9D27C11FB400FC1A7F /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				7FFB9F6527BF6EF500FC1A7F /* ProfileView.swift */,
+				7FFB9F9E27C11FD300FC1A7F /* ProfileViewModel.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -320,6 +331,7 @@
 				7FFB9F6227BF6E9300FC1A7F /* LocationMapView.swift in Sources */,
 				7FFB9F8B27BFF18100FC1A7F /* LocationMapViewModel.swift in Sources */,
 				7FFB9F7227BFA63B00FC1A7F /* DDGButton.swift in Sources */,
+				7FFB9F9F27C11FD300FC1A7F /* ProfileViewModel.swift in Sources */,
 				7FFB9F7F27BFD74000FC1A7F /* MockData.swift in Sources */,
 				7FFB9F6427BF6ECF00FC1A7F /* LocationListview.swift in Sources */,
 				7FFB9F7D27BFD54100FC1A7F /* DDGProfile.swift in Sources */,
