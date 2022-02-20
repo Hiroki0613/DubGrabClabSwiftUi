@@ -39,5 +39,9 @@ struct AlertContext {
     static let updateProfileSuccess = AlertItem(title: Text("Update Profile Success"), message: Text("プロファイルの更新が成功しました"), dismissButton: .default(Text("OK")))
     
     static let updateProfileFailure = AlertItem(title: Text("Update Profile Failed"), message: Text("プロファイルの更新が失敗しました"), dismissButton: .default(Text("OK")))
+    
+    
+    //MARK: -LocationDetailView Errors
+    static let invalidPhoneNumber = AlertItem(title: Text("Invalid Phone Number"), message: Text("Invalid Phone Number。電話番号を確認して、もう一度お願いします"), dismissButton: .default(Text("OK")))
 }
 
