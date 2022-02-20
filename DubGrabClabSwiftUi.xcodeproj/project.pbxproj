@@ -40,6 +40,7 @@
 		7FFB9F9F27C11FD300FC1A7F /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F9E27C11FD300FC1A7F /* ProfileViewModel.swift */; };
 		7FFB9FA127C134A900FC1A7F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FA027C134A900FC1A7F /* LoadingView.swift */; };
 		7FFB9FA427C222CA00FC1A7F /* LocationDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FA327C222CA00FC1A7F /* LocationDetailViewModel.swift */; };
+		7FFB9FA627C22BD000FC1A7F /* ProfileModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FA527C22BD000FC1A7F /* ProfileModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		7FFB9F9E27C11FD300FC1A7F /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		7FFB9FA027C134A900FC1A7F /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		7FFB9FA327C222CA00FC1A7F /* LocationDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewModel.swift; sourceTree = "<group>"; };
+		7FFB9FA527C22BD000FC1A7F /* ProfileModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +267,7 @@
 			children = (
 				7FFB9FA327C222CA00FC1A7F /* LocationDetailViewModel.swift */,
 				7FFB9F6727BF79AF00FC1A7F /* LocationDetailView.swift */,
+				7FFB9FA527C22BD000FC1A7F /* ProfileModalView.swift */,
 			);
 			path = LocationDetailView;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				7FFB9F8827BFED2000FC1A7F /* AlertItem.swift in Sources */,
 				7FFB9F6627BF6EF500FC1A7F /* ProfileView.swift in Sources */,
 				7FFB9F7027BFA54800FC1A7F /* View+Ext.swift in Sources */,
+				7FFB9FA627C22BD000FC1A7F /* ProfileModalView.swift in Sources */,
 				7FFB9F8627BFEBB300FC1A7F /* CKRecord+Ext.swift in Sources */,
 				7FFB9F8E27C0C0ED00FC1A7F /* LocationManager.swift in Sources */,
 				7FFB9F9027C0CDF000FC1A7F /* CKAsset+Ext.swift in Sources */,
