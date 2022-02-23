@@ -12,6 +12,7 @@ struct PhotoPicker: UIViewControllerRepresentable {
     @Binding var image: UIImage
     @Environment(\.presentationMode) var presentationMode
   
+    
     func makeUIViewController(context: Context) -> UIImagePickerController {
         let picker = UIImagePickerController()
         picker.allowsEditing = true
@@ -19,7 +20,9 @@ struct PhotoPicker: UIViewControllerRepresentable {
         return picker
     }
     
+    
     func updateUIViewController(_ uiViewController: UIImagePickerController, context: Context) {}
+    
     
     func makeCoordinator() -> Coordinator {
         Coordinator(photoPicker: self)
@@ -32,6 +35,7 @@ struct PhotoPicker: UIViewControllerRepresentable {
         init(photoPicker: PhotoPicker) {
             self.photoPicker = photoPicker
         }
+        
         
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
             if let image = info[.editedImage] as? UIImage {

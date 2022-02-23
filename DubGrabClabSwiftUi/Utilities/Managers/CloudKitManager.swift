@@ -80,7 +80,6 @@ final class CloudKitManager {
         let predicate = NSPredicate(format: "isCheckedInNilCheck == 1")
         let query = CKQuery(recordType: RecordType.profile, predicate: predicate)
         let operation = CKQueryOperation(query: query)
-//        operation.desiredKeys = [DDGProfile.kIsCheckedIn, DDGProfile.kAvatar]
         
         var checkedInProfiles: [CKRecord.ID: [DDGProfile]] = [:]
         
@@ -98,8 +97,7 @@ final class CloudKitManager {
                 completed(.failure(error!))
                 return
             }
-            
-            // handle cursor in later video
+        
             completed(.success(checkedInProfiles))
         }
         
@@ -169,7 +167,6 @@ final class CloudKitManager {
     
     
     func fetchRecord(with id: CKRecord.ID, completed: @escaping (Result<CKRecord, Error>) -> Void) {
-        
         CKContainer.default().publicCloudDatabase.fetch(withRecordID: id) { record, error in
             guard let record = record, error == nil else {
                 completed(.failure(error!))

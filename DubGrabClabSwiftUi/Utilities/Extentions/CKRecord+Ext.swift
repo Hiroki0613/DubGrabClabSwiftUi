@@ -8,6 +8,7 @@
 import CloudKit
 
 extension CKRecord {
+    
     func convertToDDGLocation() -> DDGLocation {
         return DDGLocation(record: self)
     }

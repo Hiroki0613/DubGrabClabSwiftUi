@@ -68,8 +68,8 @@ final class LocationDetailViewModel: ObservableObject {
                         isCheckedIn = reference.recordID == location.id
                     } else {
                         isCheckedIn = false
-
                     }
+                    
                 case .failure(_):
                     alertItem = AlertContext.unableToGetCheckInStatus
                 }
@@ -99,6 +99,7 @@ final class LocationDetailViewModel: ObservableObject {
                     record[DDGProfile.kIsCheckedIn] = nil
                     record[DDGProfile.kIsCheckedInNilCheck] = nil
                 }
+                
                 // Save the updated profile to CloudKit
                 CloudKitManager.shared.save(record: record) { result in
                     DispatchQueue.main.async {
@@ -112,8 +113,8 @@ final class LocationDetailViewModel: ObservableObject {
                             case .checkedOut:
                                 checkedInProfiles.removeAll(where: {$0.id == profile.id})
                             }
-                            
                             isCheckedIn = checkInstatus == .checkedIn
+                            
                         case .failure(_):
                             alertItem = AlertContext.unableToCheckInOrOut
                         }

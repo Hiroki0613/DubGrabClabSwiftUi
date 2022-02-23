@@ -11,26 +11,20 @@ struct LocationDetailView: View {
     
     @ObservedObject var viewModel: LocationDetailViewModel
     
-    
     var body: some View {
-        
         ZStack {
-            
             VStack(spacing: 16) {
-
                 BannerImageView(image: viewModel.location.createBannerImage())
                 
                 HStack {
                     AddressView(address: viewModel.location.address)
                     Spacer()
-                    
                 }
                 .padding(.horizontal)
                 
                 DescriptionView(text: viewModel.location.description)
                 
                 ZStack {
-                    
                     Capsule()
                         .frame(height: 80)
                         .foregroundColor(Color(.secondarySystemBackground))

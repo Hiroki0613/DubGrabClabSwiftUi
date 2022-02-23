@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MapBallon: Shape {
+    
     func path(in rect: CGRect) -> Path {
         var path = Path()
         path.move(to: CGPoint(x: rect.midX, y: rect.maxY))
@@ -16,13 +17,8 @@ struct MapBallon: Shape {
         path.addQuadCurve(to: CGPoint(x: rect.midX, y: rect.maxY),
                           control: CGPoint(x: rect.maxX, y: rect.minY))
         
-
-        
-        
         return path
     }
-    
-    
 }
 
 struct MapBallon_Previews: PreviewProvider {

@@ -17,6 +17,7 @@ struct AppTabView: View {
                 .tabItem {
                     Label("Map", systemImage: "map")
                 }
+            
             LocationListview()
                 .tabItem {
                     Label("Location", systemImage: "building")
@@ -37,7 +38,6 @@ struct AppTabView: View {
         .sheet(isPresented: $viewModel.isShowingOnboardView, onDismiss: viewModel.checkIfLocationServicesIsEnabled) {
             OnboardView(isShowingOnboardView: $viewModel.isShowingOnboardView)
         }
-
     }
 }
 

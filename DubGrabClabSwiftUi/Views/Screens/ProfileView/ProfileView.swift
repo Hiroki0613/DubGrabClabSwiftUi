@@ -13,7 +13,6 @@ struct ProfileView: View {
     @StateObject private var viewModel = ProfileViewModel()
     
     var body: some View {
-        
         ZStack {
             VStack {
                 ZStack {
@@ -61,7 +60,6 @@ struct ProfileView: View {
                                     .cornerRadius(8)
                             }
                         }
-                        
                     }
                     
                     TextEditor(text: $viewModel.bio)
@@ -104,15 +102,6 @@ struct ProfileView: View {
             PhotoPicker(image: $viewModel.avatar)
         }
     }
-    
- 
-    
-    
-    
-    
-  
-    
-    
 }
 
 struct ProfileView_Previews: PreviewProvider {

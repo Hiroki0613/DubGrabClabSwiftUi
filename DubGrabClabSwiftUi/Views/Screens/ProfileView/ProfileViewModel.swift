@@ -32,15 +32,17 @@ final class ProfileViewModel: ObservableObject {
     var profileContext: ProfileContext = .create
     
 
-    func inValidProfile() -> Bool {
+    private func inValidProfile() -> Bool {
         guard !firstName.isEmpty,
               !lastName.isEmpty,
               !companyName.isEmpty,
               !bio.isEmpty,
               avatar != PlaceholderImage.avatar,
               bio.count <= 100 else { return false }
+        
         return true
     }
+    
     
     func getCheckedInStatus() {
         
@@ -57,7 +59,6 @@ final class ProfileViewModel: ObservableObject {
                         isCheckedIn = true
                     } else {
                         isCheckedIn = false
-
                     }
                 case .failure(_):
                     break
@@ -134,6 +135,7 @@ final class ProfileViewModel: ObservableObject {
                         CloudKitManager.shared.profileRecordID = record.recordID
                     }
                     alertItem = AlertContext.createProfileSuccess
+                    
                 case .failure(_):
                     alertItem = AlertContext.createProfileFailure
                 }
@@ -156,7 +158,6 @@ final class ProfileViewModel: ObservableObject {
         let profileRecordID = profileReference.recordID
         
         showLoadingView()
-        
         CloudKitManager.shared.fetchRecord(with: profileRecordID) { result in
             DispatchQueue.main.async { [self] in
                 hideLoadingView()
@@ -164,7 +165,6 @@ final class ProfileViewModel: ObservableObject {
                 switch result {
                 case .success(let record):
                     existingProfileRecord = record
-                    
                     
                     let profile = DDGProfile(record: record)
                     firstName = profile.firstName

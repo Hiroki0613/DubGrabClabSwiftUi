@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DDGAnnotation: View {
+    
     var location: DDGLocation
     var number: Int
     
@@ -35,7 +36,6 @@ struct DDGAnnotation: View {
                 }
             }
 
-            
             Text(location.name)
                 .font(.caption)
                 .fontWeight(.semibold)

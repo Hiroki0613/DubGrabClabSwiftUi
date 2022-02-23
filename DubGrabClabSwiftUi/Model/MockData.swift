@@ -16,6 +16,7 @@ struct MockData {
         record[DDGLocation.kWebsiteURL] = "https://qiita.com"
         record[DDGLocation.kLocation] = CLLocation(latitude: 37.331516, longitude: -121.891054)
         record[DDGLocation.kPhoneNumber] = "111-1111-1111"
+        
         return record
     }
     

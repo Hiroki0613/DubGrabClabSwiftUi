@@ -20,6 +20,7 @@ final class AppTabViewModel: NSObject, ObservableObject {
         return UserDefaults.standard.bool(forKey: kHasSeenOnboardView)
     }
     
+    
     func runStartupChecks() {
         if !hasSeenOnboardView {
             isShowingOnboardView = true
@@ -28,6 +29,7 @@ final class AppTabViewModel: NSObject, ObservableObject {
             checkIfLocationServicesIsEnabled()
         }
     }
+    
     
     func checkIfLocationServicesIsEnabled() {
         if CLLocationManager.locationServicesEnabled() {
@@ -58,7 +60,6 @@ final class AppTabViewModel: NSObject, ObservableObject {
         @unknown default:
             break
         }
-
     }
 }
 

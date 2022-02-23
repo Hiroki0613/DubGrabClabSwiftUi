@@ -22,7 +22,6 @@ struct LocationListview: View {
                         LocationCell(location: location, profiles: viewModel.checkedInProfiles[location.id, default: []])
                     }
                 }
-               
             }
             .navigationTitle("Grub Spots")
             .onAppear {
