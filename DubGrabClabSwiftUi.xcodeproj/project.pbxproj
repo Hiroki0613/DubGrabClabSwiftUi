@@ -43,6 +43,7 @@
 		7FFB9FA627C22BD000FC1A7F /* ProfileModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FA527C22BD000FC1A7F /* ProfileModalView.swift */; };
 		7FFB9FA927C6375F00FC1A7F /* LocationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FA827C6375F00FC1A7F /* LocationListViewModel.swift */; };
 		7FFB9FAC27C6438000FC1A7F /* MapBallon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FAB27C6438000FC1A7F /* MapBallon.swift */; };
+		7FFB9FAE27C648B000FC1A7F /* DDGAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FAD27C648B000FC1A7F /* DDGAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		7FFB9FA527C22BD000FC1A7F /* ProfileModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModalView.swift; sourceTree = "<group>"; };
 		7FFB9FA827C6375F00FC1A7F /* LocationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListViewModel.swift; sourceTree = "<group>"; };
 		7FFB9FAB27C6438000FC1A7F /* MapBallon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBallon.swift; sourceTree = "<group>"; };
+		7FFB9FAD27C648B000FC1A7F /* DDGAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				7FFB9FAB27C6438000FC1A7F /* MapBallon.swift */,
+				7FFB9FAD27C648B000FC1A7F /* DDGAnnotation.swift */,
 			);
 			path = Map_Annotation;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				7FFB9F8827BFED2000FC1A7F /* AlertItem.swift in Sources */,
 				7FFB9F6627BF6EF500FC1A7F /* ProfileView.swift in Sources */,
 				7FFB9F7027BFA54800FC1A7F /* View+Ext.swift in Sources */,
+				7FFB9FAE27C648B000FC1A7F /* DDGAnnotation.swift in Sources */,
 				7FFB9FA627C22BD000FC1A7F /* ProfileModalView.swift in Sources */,
 				7FFB9F8627BFEBB300FC1A7F /* CKRecord+Ext.swift in Sources */,
 				7FFB9FA927C6375F00FC1A7F /* LocationListViewModel.swift in Sources */,
