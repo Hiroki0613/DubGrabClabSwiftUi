@@ -9,4 +9,5 @@ import Foundation
 
 final class LocationManager: ObservableObject {
     @Published var location: [DDGLocation] = []
+    var selectedLocation: DDGLocation?
 }

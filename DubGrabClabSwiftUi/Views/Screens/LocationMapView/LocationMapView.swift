@@ -16,7 +16,13 @@ struct LocationMapView: View {
     var body: some View {
         ZStack {
             Map(coordinateRegion: $viewModel.region, showsUserLocation: true, annotationItems: locationManager.location, annotationContent: { location in
-                MapMarker(coordinate: location.location.coordinate, tint: .brandPrimary)
+                MapAnnotation(coordinate: location.location.coordinate, anchorPoint: CGPoint(x: 0.5, y: 0.75)) {
+                    DDGAnnotation(location: location)
+                        .onTapGesture {
+                            locationManager.selectedLocation = location
+                            viewModel.isShowingDetailView = true
+                        }
+                }
             })
                 .accentColor(.grubRed)
             .ignoresSafeArea()
@@ -27,15 +33,21 @@ struct LocationMapView: View {
                 Spacer()
             }
         }
-        .sheet(isPresented: $viewModel.isShowingOnboardView, onDismiss: viewModel.checkIfLocationServicesIsEnabled) {
-            OnboardView(isShowingOnboardView: $viewModel.isShowingOnboardView)
+        .sheet(isPresented: $viewModel.isShowingDetailView) {
+            NavigationView {
+                LocationDetailView(viewModel: LocationDetailViewModel(location: locationManager.selectedLocation!))
+                    .toolbar {
+                        Button("Dissmiss") {
+                            viewModel.isShowingDetailView = false
+                        }
+                    }
+            }
+            .accentColor(.brandPrimary)
         }
         .alert(item: $viewModel.alertItem, content: { alertItem in
             Alert(title: alertItem.title, message: alertItem.message, dismissButton: alertItem.dismissButton)
         })
         .onAppear {
-            viewModel.runStartupChecks()
-            
             if locationManager.location.isEmpty {
                 viewModel.getLocations(for: locationManager)
             }

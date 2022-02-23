@@ -44,6 +44,7 @@
 		7FFB9FA927C6375F00FC1A7F /* LocationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FA827C6375F00FC1A7F /* LocationListViewModel.swift */; };
 		7FFB9FAC27C6438000FC1A7F /* MapBallon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FAB27C6438000FC1A7F /* MapBallon.swift */; };
 		7FFB9FAE27C648B000FC1A7F /* DDGAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FAD27C648B000FC1A7F /* DDGAnnotation.swift */; };
+		7FFB9FB127C6529800FC1A7F /* AppTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FB027C6529800FC1A7F /* AppTabViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		7FFB9FA827C6375F00FC1A7F /* LocationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListViewModel.swift; sourceTree = "<group>"; };
 		7FFB9FAB27C6438000FC1A7F /* MapBallon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBallon.swift; sourceTree = "<group>"; };
 		7FFB9FAD27C648B000FC1A7F /* DDGAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGAnnotation.swift; sourceTree = "<group>"; };
+		7FFB9FB027C6529800FC1A7F /* AppTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,11 +174,11 @@
 		7FFB9F7527BFA8BE00FC1A7F /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				7FFB9FAF27C6528200FC1A7F /* AppTabView */,
 				7FFB9FA727C6371400FC1A7F /* LocationListView */,
 				7FFB9FA227C222A800FC1A7F /* LocationDetailView */,
 				7FFB9F9D27C11FB400FC1A7F /* ProfileView */,
 				7FFB9F8927BFF16300FC1A7F /* LocationMapView */,
-				7FFB9F5F27BF6E4900FC1A7F /* AppTabView.swift */,
 				7FFB9F9127C0E08500FC1A7F /* OnboardView.swift */,
 			);
 			path = Screens;
@@ -289,6 +291,15 @@
 			path = Map_Annotation;
 			sourceTree = "<group>";
 		};
+		7FFB9FAF27C6528200FC1A7F /* AppTabView */ = {
+			isa = PBXGroup;
+			children = (
+				7FFB9FB027C6529800FC1A7F /* AppTabViewModel.swift */,
+				7FFB9F5F27BF6E4900FC1A7F /* AppTabView.swift */,
+			);
+			path = AppTabView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -370,6 +381,7 @@
 				7FFB9F7F27BFD74000FC1A7F /* MockData.swift in Sources */,
 				7FFB9F6427BF6ECF00FC1A7F /* LocationListview.swift in Sources */,
 				7FFB9F7D27BFD54100FC1A7F /* DDGProfile.swift in Sources */,
+				7FFB9FB127C6529800FC1A7F /* AppTabViewModel.swift in Sources */,
 				7FFB9F7927BFD06200FC1A7F /* DDGLocation.swift in Sources */,
 				7FFB9F9A27C0F1CE00FC1A7F /* PhotoPicker.swift in Sources */,
 				7FFB9F6827BF79AF00FC1A7F /* LocationDetailView.swift in Sources */,
