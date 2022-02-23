@@ -42,6 +42,7 @@
 		7FFB9FA427C222CA00FC1A7F /* LocationDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FA327C222CA00FC1A7F /* LocationDetailViewModel.swift */; };
 		7FFB9FA627C22BD000FC1A7F /* ProfileModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FA527C22BD000FC1A7F /* ProfileModalView.swift */; };
 		7FFB9FA927C6375F00FC1A7F /* LocationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FA827C6375F00FC1A7F /* LocationListViewModel.swift */; };
+		7FFB9FAC27C6438000FC1A7F /* MapBallon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FAB27C6438000FC1A7F /* MapBallon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		7FFB9FA327C222CA00FC1A7F /* LocationDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewModel.swift; sourceTree = "<group>"; };
 		7FFB9FA527C22BD000FC1A7F /* ProfileModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModalView.swift; sourceTree = "<group>"; };
 		7FFB9FA827C6375F00FC1A7F /* LocationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListViewModel.swift; sourceTree = "<group>"; };
+		7FFB9FAB27C6438000FC1A7F /* MapBallon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBallon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		7FFB9F7727BFA91000FC1A7F /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				7FFB9FAA27C6436300FC1A7F /* Map_Annotation */,
 				7FFB9F9827C0F19700FC1A7F /* UIKit_Components */,
 				7FFB9F9527C0E58400FC1A7F /* Buttons */,
 				7FFB9F6B27BFA26F00FC1A7F /* AvatarView.swift */,
@@ -275,6 +278,14 @@
 			path = LocationListView;
 			sourceTree = "<group>";
 		};
+		7FFB9FAA27C6436300FC1A7F /* Map_Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				7FFB9FAB27C6438000FC1A7F /* MapBallon.swift */,
+			);
+			path = Map_Annotation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -359,6 +370,7 @@
 				7FFB9F7927BFD06200FC1A7F /* DDGLocation.swift in Sources */,
 				7FFB9F9A27C0F1CE00FC1A7F /* PhotoPicker.swift in Sources */,
 				7FFB9F6827BF79AF00FC1A7F /* LocationDetailView.swift in Sources */,
+				7FFB9FAC27C6438000FC1A7F /* MapBallon.swift in Sources */,
 				7FFB9F6027BF6E4900FC1A7F /* AppTabView.swift in Sources */,
 				7FFB9F8227BFE61F00FC1A7F /* CloudKitManager.swift in Sources */,
 				7FFB9F9427C0E0E600FC1A7F /* LogoView.swift in Sources */,
