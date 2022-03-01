@@ -90,9 +90,9 @@ struct LocationDetailView: View {
                                         .accessibilityElement(children: .ignore)
                                         .accessibilityAddTraits(.isButton)
                                         .accessibilityHint("Show's \(profile.firstName) profile pop up.")
-                                        .accessibilityLabel(Text("\(profile.firstName) \(profile.lastName)"))
+                                        .accessibilityLabel(Text("\(profile.firstName)\(profile.lastName)"))
                                         .onTapGesture {
-                                            viewModel.selectedProfile = profile
+                                            viewModel.show(profile: profile, in: sizeCategory)
                                         }
                                 }
                             }
@@ -126,6 +126,17 @@ struct LocationDetailView: View {
         .onAppear {
             viewModel.getCheckedInProfiles()
             viewModel.getCheckedInStatus()
+        }
+        .sheet(isPresented: $viewModel.isShowingProfileSheet) {
+            NavigationView {
+                ProfileSheetView(profile: viewModel.selectedProfile!)
+                    .toolbar {
+                        Button("Dissmiss") {
+                            viewModel.isShowingProfileSheet = false
+                        }
+                    }
+            }
+            .accentColor(.brandPrimary)
         }
         .alert(item: $viewModel.alertItem, content: { alertItem in
             Alert(title: alertItem.title, message: alertItem.message, dismissButton: alertItem.dismissButton)

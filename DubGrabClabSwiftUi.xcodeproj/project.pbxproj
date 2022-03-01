@@ -45,6 +45,7 @@
 		7FFB9FAC27C6438000FC1A7F /* MapBallon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FAB27C6438000FC1A7F /* MapBallon.swift */; };
 		7FFB9FAE27C648B000FC1A7F /* DDGAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FAD27C648B000FC1A7F /* DDGAnnotation.swift */; };
 		7FFB9FB127C6529800FC1A7F /* AppTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FB027C6529800FC1A7F /* AppTabViewModel.swift */; };
+		7FFB9FB427CE03C600FC1A7F /* ProfileSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FB327CE03C600FC1A7F /* ProfileSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 		7FFB9FAD27C648B000FC1A7F /* DDGAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGAnnotation.swift; sourceTree = "<group>"; };
 		7FFB9FB027C6529800FC1A7F /* AppTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabViewModel.swift; sourceTree = "<group>"; };
 		7FFB9FB227C7CC7300FC1A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7FFB9FB327CE03C600FC1A7F /* ProfileSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +272,7 @@
 				7FFB9FA327C222CA00FC1A7F /* LocationDetailViewModel.swift */,
 				7FFB9F6727BF79AF00FC1A7F /* LocationDetailView.swift */,
 				7FFB9FA527C22BD000FC1A7F /* ProfileModalView.swift */,
+				7FFB9FB327CE03C600FC1A7F /* ProfileSheetView.swift */,
 			);
 			path = LocationDetailView;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				7FFB9F8E27C0C0ED00FC1A7F /* LocationManager.swift in Sources */,
 				7FFB9F9027C0CDF000FC1A7F /* CKAsset+Ext.swift in Sources */,
 				7FFB9F9227C0E08500FC1A7F /* OnboardView.swift in Sources */,
+				7FFB9FB427CE03C600FC1A7F /* ProfileSheetView.swift in Sources */,
 				7FFB9F6A27BFA22200FC1A7F /* LocationCell.swift in Sources */,
 				7FFB9FA127C134A900FC1A7F /* LoadingView.swift in Sources */,
 				7FFB9F9C27C100F100FC1A7F /* UIImage+Ext.swift in Sources */,
