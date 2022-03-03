@@ -30,6 +30,10 @@ struct AlertContext {
     
     static let checkedInCount = AlertItem(title: Text("checkedInCount Service Disabled"), message: Text("checkedInCount Service Disabled。もう一度、操作をお願いします"), dismissButton: .default(Text("OK")))
     
+    //MARK: -LocationListView Errors
+    static let unableToAllCheckedInProfiles = AlertItem(title: Text("Unable To All Checked In Profiles"), message: Text("Unable To All Checked In Profiles。電話番号を確認して、もう一度お願いします"), dismissButton: .default(Text("OK")))
+    
+    
     //MARK: -ProfileView Errors
     static let invalidProfile = AlertItem(title: Text("Invalid Profile"), message: Text("Invalid Profile。必要事項を入力して、もう一度お願いします"), dismissButton: .default(Text("OK")))
     

@@ -30,6 +30,7 @@ struct LocationListview: View {
             .onAppear {
                 viewModel.getCheckedInProfilesDictionary()
             }
+            .alert(item: $viewModel.alertItem, content: { $0.alert })
             .listStyle(.plain)
         }
     }
