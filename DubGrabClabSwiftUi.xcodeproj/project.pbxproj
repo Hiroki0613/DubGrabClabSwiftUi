@@ -46,6 +46,7 @@
 		7FFB9FAE27C648B000FC1A7F /* DDGAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FAD27C648B000FC1A7F /* DDGAnnotation.swift */; };
 		7FFB9FB127C6529800FC1A7F /* AppTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FB027C6529800FC1A7F /* AppTabViewModel.swift */; };
 		7FFB9FB427CE03C600FC1A7F /* ProfileSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FB327CE03C600FC1A7F /* ProfileSheetView.swift */; };
+		7FFB9FB627D0B25A00FC1A7F /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9FB527D0B25A00FC1A7F /* HapticManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +92,7 @@
 		7FFB9FB027C6529800FC1A7F /* AppTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabViewModel.swift; sourceTree = "<group>"; };
 		7FFB9FB227C7CC7300FC1A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7FFB9FB327CE03C600FC1A7F /* ProfileSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSheetView.swift; sourceTree = "<group>"; };
+		7FFB9FB527D0B25A00FC1A7F /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 			children = (
 				7FFB9F8127BFE61F00FC1A7F /* CloudKitManager.swift */,
 				7FFB9F8D27C0C0ED00FC1A7F /* LocationManager.swift */,
+				7FFB9FB527D0B25A00FC1A7F /* HapticManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				7FFB9F6E27BFA51C00FC1A7F /* CustomModifiers.swift in Sources */,
 				7FFB9F6227BF6E9300FC1A7F /* LocationMapView.swift in Sources */,
 				7FFB9FA427C222CA00FC1A7F /* LocationDetailViewModel.swift in Sources */,
+				7FFB9FB627D0B25A00FC1A7F /* HapticManager.swift in Sources */,
 				7FFB9F8B27BFF18100FC1A7F /* LocationMapViewModel.swift in Sources */,
 				7FFB9F7227BFA63B00FC1A7F /* DDGButton.swift in Sources */,
 				7FFB9F9F27C11FD300FC1A7F /* ProfileViewModel.swift in Sources */,

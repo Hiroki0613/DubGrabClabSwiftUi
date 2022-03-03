@@ -87,8 +87,9 @@ final class LocationDetailViewModel: ObservableObject {
         guard let profileRecordID = CloudKitManager.shared.profileRecordID else {
             alertItem = AlertContext.unableToGetProfile
             return
-            
         }
+        
+        showLoadingView()
         
         CloudKitManager.shared.fetchRecord(with: profileRecordID) { [self] result in
             switch result {
@@ -106,8 +107,10 @@ final class LocationDetailViewModel: ObservableObject {
                 // Save the updated profile to CloudKit
                 CloudKitManager.shared.save(record: record) { result in
                     DispatchQueue.main.async {
+                        hideLoadingView()
                         switch result {
                         case .success(let record):
+                            HapticManager.playSuccess()
                             let profile = DDGProfile(record: record)
                             // update our checkedInProfiles array
                             switch checkInstatus {
@@ -116,7 +119,7 @@ final class LocationDetailViewModel: ObservableObject {
                             case .checkedOut:
                                 checkedInProfiles.removeAll(where: {$0.id == profile.id})
                             }
-                            isCheckedIn = checkInstatus == .checkedIn
+                            isCheckedIn.toggle()
                             
                         case .failure(_):
                             alertItem = AlertContext.unableToCheckInOrOut
@@ -125,6 +128,7 @@ final class LocationDetailViewModel: ObservableObject {
                 }
                 
             case .failure(_):
+                hideLoadingView()
                 alertItem = AlertContext.unableToCheckInOrOut
             }
         }
@@ -148,7 +152,7 @@ final class LocationDetailViewModel: ObservableObject {
     }
     
     
-    func show(profile: DDGProfile, in sizeCategory: ContentSizeCategory) {
+    func show(_ profile: DDGProfile, in sizeCategory: ContentSizeCategory) {
         selectedProfile = profile
         if sizeCategory >= .accessibilityMedium {
             isShowingProfileSheet = true

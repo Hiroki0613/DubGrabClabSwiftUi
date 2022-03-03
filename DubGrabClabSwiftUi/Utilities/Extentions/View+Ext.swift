@@ -14,11 +14,6 @@ extension View {
     }
     
     
-    func playHaptic() {
-        let generator = UINotificationFeedbackGenerator()
-        generator.notificationOccurred(.success)
-    }
-    
     func embedInScroolView() -> some View {
         GeometryReader { geometry in
             ScrollView {

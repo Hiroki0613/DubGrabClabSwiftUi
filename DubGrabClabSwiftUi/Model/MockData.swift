@@ -37,9 +37,9 @@ struct MockData {
     
     static var profile: CKRecord {
         let record = CKRecord(recordType: RecordType.profile)
-        record[DDGProfile.kFirstName] = "Sean"
-        record[DDGProfile.kLastName] = "Allen"
-        record[DDGProfile.kCompanyName] = "Best Company Ever"
+        record[DDGProfile.kFirstName] = "SuperLongFirstName"
+        record[DDGProfile.kLastName] = "SuperLongLastNameJunior"
+        record[DDGProfile.kCompanyName] = "Super Long Company Ever"
         record[DDGProfile.kBio] = "This is my bio. I hope it's not too long I can't chacke character count"
         
         return record
