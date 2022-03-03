@@ -14,7 +14,6 @@ extension LocationListview {
         @Published var checkedInProfiles: [CKRecord.ID: [DDGProfile]] = [:]
         @Published var alertItem: AlertItem?
         
-        
         func getCheckedInProfilesDictionary() {
             CloudKitManager.shared.getCheckedInProfileDictionary { result in
                 DispatchQueue.main.async { [self] in

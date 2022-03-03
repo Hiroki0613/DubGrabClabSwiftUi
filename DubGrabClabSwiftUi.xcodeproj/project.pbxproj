@@ -27,7 +27,6 @@
 		7FFB9F7F27BFD74000FC1A7F /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F7E27BFD74000FC1A7F /* MockData.swift */; };
 		7FFB9F8227BFE61F00FC1A7F /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8127BFE61F00FC1A7F /* CloudKitManager.swift */; };
 		7FFB9F8427BFE74B00FC1A7F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8327BFE74B00FC1A7F /* Constants.swift */; };
-		7FFB9F8627BFEBB300FC1A7F /* CKRecord+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8527BFEBB300FC1A7F /* CKRecord+Ext.swift */; };
 		7FFB9F8827BFED2000FC1A7F /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8727BFED2000FC1A7F /* AlertItem.swift */; };
 		7FFB9F8B27BFF18100FC1A7F /* LocationMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8A27BFF18100FC1A7F /* LocationMapViewModel.swift */; };
 		7FFB9F8E27C0C0ED00FC1A7F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9F8D27C0C0ED00FC1A7F /* LocationManager.swift */; };
@@ -72,7 +71,6 @@
 		7FFB9F7E27BFD74000FC1A7F /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		7FFB9F8127BFE61F00FC1A7F /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
 		7FFB9F8327BFE74B00FC1A7F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		7FFB9F8527BFEBB300FC1A7F /* CKRecord+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKRecord+Ext.swift"; sourceTree = "<group>"; };
 		7FFB9F8727BFED2000FC1A7F /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
 		7FFB9F8A27BFF18100FC1A7F /* LocationMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewModel.swift; sourceTree = "<group>"; };
 		7FFB9F8D27C0C0ED00FC1A7F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
@@ -160,7 +158,6 @@
 			children = (
 				7FFB9F5D27BF6DC200FC1A7F /* Color+Ext.swift */,
 				7FFB9F6F27BFA54800FC1A7F /* View+Ext.swift */,
-				7FFB9F8527BFEBB300FC1A7F /* CKRecord+Ext.swift */,
 				7FFB9F8F27C0CDF000FC1A7F /* CKAsset+Ext.swift */,
 				7FFB9F9B27C100F100FC1A7F /* UIImage+Ext.swift */,
 			);
@@ -404,7 +401,6 @@
 				7FFB9F7027BFA54800FC1A7F /* View+Ext.swift in Sources */,
 				7FFB9FAE27C648B000FC1A7F /* DDGAnnotation.swift in Sources */,
 				7FFB9FA627C22BD000FC1A7F /* ProfileModalView.swift in Sources */,
-				7FFB9F8627BFEBB300FC1A7F /* CKRecord+Ext.swift in Sources */,
 				7FFB9FA927C6375F00FC1A7F /* LocationListViewModel.swift in Sources */,
 				7FFB9F8E27C0C0ED00FC1A7F /* LocationManager.swift in Sources */,
 				7FFB9F9027C0CDF000FC1A7F /* CKAsset+Ext.swift in Sources */,

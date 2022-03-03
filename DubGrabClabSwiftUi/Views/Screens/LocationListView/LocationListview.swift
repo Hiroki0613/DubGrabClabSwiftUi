@@ -13,6 +13,7 @@ struct LocationListview: View {
     @EnvironmentObject private var locationManager: LocationManager
     @StateObject private var viewModel = LocationListViewModel()
     @Environment(\.sizeCategory) var sizeCategory
+    @State private var onAppearHasFired = false
     
     var body: some View {
         NavigationView {
@@ -28,6 +29,7 @@ struct LocationListview: View {
             }
             .navigationTitle("Grub Spots")
             .onAppear {
+                print("Eye onAppear called")
                 viewModel.getCheckedInProfilesDictionary()
             }
             .alert(item: $viewModel.alertItem, content: { $0.alert })
